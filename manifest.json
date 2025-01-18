@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Replace A and a with AA",
+  "version": "1.0",
+  "description": "Replaces all occurrences of 'A' or 'a' with 'AA' on any webpage.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
